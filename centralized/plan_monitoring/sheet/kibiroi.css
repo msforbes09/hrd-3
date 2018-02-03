@@ -1,0 +1,44 @@
+#ordered{
+	margin-right: 5px;
+}
+#error{
+	margin-left: 5px;
+}
+.no_w{
+	width: 10%;
+}
+.cnum_w{
+	width: 30%;
+}
+.staff_w{
+	width: 30%;
+}
+.order_w{
+	width: 30%;
+}
+.f_bold{
+	font-weight: bold;
+}
+.my_paging{
+	text-align: center;
+	position: absolute;
+	top: 870px;
+	left: 10%;
+	width: 30%;
+	padding: 7px;
+	border-radius: 20px;
+	/*
+	border: 3px solid rgba(255, 0, 0, 1);
+	background-color: rgba(255, 200, 200, 1);
+	*/
+	border: 3px solid rgba(0, 0, 0, 1);
+	background-color: rgba(200, 200, 200, 1);
+	font-weight: bold;
+	word-spacing: 20px;
+}
+.prev_page:hover,
+.next_page:hover{
+	color: rgba(255, 255, 255, 1);
+	cursor: pointer;
+	text-decoration: underline;
+}

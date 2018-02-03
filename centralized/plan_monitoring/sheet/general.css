@@ -1,0 +1,164 @@
+.bg_head{
+	background-color: rgba(0, 0, 255, 1);
+	color: white;
+}
+.bg_error{
+	background-color: rgba(255, 0, 0, 1);
+	color: white;
+}
+.bg_pend{
+	background-color: pink;
+}
+.comm-icon{
+	color: gray;
+}
+.order-icon{
+	color: gray;
+	cursor: pointer;
+}
+.order-icon:hover{
+	color: red;
+}
+.d_staff:hover,
+.d_stat:hover,
+.e_staff:hover,
+.e_stat:hover,
+.c_staff:hover,
+.c_stat:hover,
+.q_staff:hover,
+.q_stat:hover,
+.c_num:hover{
+	cursor: pointer;
+	color: black;
+	text-decoration: underline;
+}
+#content td:hover,
+#ordered td:hover,
+#error td:hover{
+	background-color: yellow;
+}
+.my_table{
+	width: 100%;
+	max-width: 100%;
+	font-family: Georgia;
+	font-size: 1.3rem;
+	background-color: transparent;
+	color: black;
+}
+.my_table thead{
+	background-color: rgba(0, 0, 255, 1);
+	color: white;
+}
+.my_table td,
+.my_table th{
+	text-align: center;
+	padding: 0.4rem;
+	border: 1px solid gray;
+}
+.float{
+	padding: 7px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border: 1.5px solid rgba(0, 0, 0, 1);
+	/*border: 1px solid rgba(0, 0, 0, 1);*/
+	box-shadow: 2px 0px 30px 2px black;
+	background-color: rgba(255, 255, 255, 1);
+}
+.my_alert{
+	text-align: center;
+	padding: 7px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+	height: 75px;
+	color: black;
+	text-align: center;
+	/*text-shadow:4px 4px 8px blue;*/
+	/*border: 1px solid rgba(255, 255, 255, 0.8);*/
+	border: 1.5px solid rgba(0, 0, 0, 1);
+	box-shadow: 2px 0px 30px 2px black;
+	background-color: rgba(255, 255, 255, 1);
+}
+.item_active{
+	font-weight: bold;
+	background-color: yellow;
+	color: black;
+}
+.item_count{
+	font-size:1.8rem;
+	color: blue;
+}
+.count{
+	font-weight: bold;
+	color: red;
+}
+.floatv:hover,
+.my_alevrt:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.my_badge{
+	display: inline-block;
+	min-width: 10px;
+	padding: 3px 7px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1;
+	color: white;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	background-color: red;
+	border-radius: 10px;
+	position: relative;
+	top: -10px;
+	left: 5px;
+}
+body {
+	/*background: url(../images/notebook-with-green-cover_1101-120.jpg) no-repeat center center fixed;
+	background: rgba(0, 0, 0, 0.075);*/
+	background: linear-gradient(to top right, #add8e6  0%, #e6e6fa 100% ) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.syscom{
+	color: black;
+	text-align: center;
+	text-shadow:4px 4px 8px white;
+}
+.scroll{
+	overflow-y:scroll;
+	border-bottom: 1px solid gray;
+}
+.animate{
+	-webkit-animation: square 25s infinite;
+  animation: square 25s infinite;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+
+@-webkit-keyframes square {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-700px) rotate(600deg);
+            transform: translateY(-700px) rotate(600deg);
+  }
+}
+@keyframes square {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-700px) rotate(600deg);
+            transform: translateY(-700px) rotate(600deg);
+  }
+}
+*::-webkit-scrollbar {
+    width: 0px;
+}

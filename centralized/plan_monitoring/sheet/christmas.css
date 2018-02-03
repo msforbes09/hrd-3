@@ -1,0 +1,160 @@
+.bg_head{
+	background-color: rgba(0, 0, 255, 0.5);
+	color: white;
+}
+.bg_error{
+	background-color: rgba(255, 0, 0, 0.5);
+	color: white;
+}
+.bg_pend{
+	background-color: rgba(255, 0, 0, 0.5);
+}
+.comm-icon{
+	color: pink;
+}
+.order-icon{
+	color: pink;
+	cursor: pointer;
+}
+.order-icon:hover{
+	color: red;
+}
+.d_staff:hover,
+.d_stat:hover,
+.e_staff:hover,
+.e_stat:hover,
+.c_staff:hover,
+.c_stat:hover,
+.q_staff:hover,
+.q_stat:hover,
+.c_num:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: underline;
+}
+#content td:hover,
+#ordered td:hover,
+#error td:hover{
+	box-shadow: 2px 0px 30px 2px rgba(255, 255, 0, 0.75);
+}
+.my_table{
+	width: 100%;
+	max-width: 100%;
+	font-family: Georgia;
+	font-size: 1.3rem;
+	background-color: transparent;
+	color: white;
+}
+.my_table thead{
+	color: white;
+}
+.my_table td,
+.my_table th{
+	text-align: center;
+	padding: 0.4rem;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.float{
+	padding: 7px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.8);
+	box-shadow: 2px 0px 30px 2px gray;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+.my_alert{
+	text-align: center;
+	padding: 7px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+	height: 75px;
+	color: white;
+	text-align: center;
+	text-shadow:4px 4px 8px red;
+	border: 1px solid rgba(255, 255, 255, 0.8);
+	box-shadow: 2px 0px 30px 2px gray;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+.item_active{
+	font-weight: bold;
+	box-shadow: 2px 0px 30px 2px rgba(255, 255, 0, 0.75);
+	color: white;
+}
+.item_count{
+	font-size:1.8rem;
+	color: blue;
+}
+.count{
+	font-weight: bold;
+	color: red;
+}
+.float:hover,
+.my_alert:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.my_badge{
+	display: inline-block;
+	min-width: 10px;
+	padding: 3px 7px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1;
+	color: white;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	background-color: red;
+	border-radius: 10px;
+	position: relative;
+	top: -10px;
+	left: 5px;
+}
+body {
+	background: url(../images/FreeVector-Abstract-Christmas-Tree.jpg) no-repeat center center fixed;
+	/*background: #2c3e50 no-repeat center center fixed;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.syscom{
+	color: white;
+	text-align: center;
+	text-shadow:4px 4px 8px red;
+}
+.scroll{
+	overflow-y:scroll;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.animate{
+	-webkit-animation: square 25s infinite;
+  animation: square 25s infinite;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+
+@-webkit-keyframes square {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-700px) rotate(600deg);
+            transform: translateY(-700px) rotate(600deg);
+  }
+}
+@keyframes square {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-700px) rotate(600deg);
+            transform: translateY(-700px) rotate(600deg);
+  }
+}
+*::-webkit-scrollbar {
+    width: 0px;
+}

@@ -1,0 +1,8 @@
+search -ok
+date in admin -ok
+notes -ok
+data in modal must be latest
+comment in finished - ok
+no same control number
+individual output
+kibiroi

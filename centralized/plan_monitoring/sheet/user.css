@@ -1,0 +1,81 @@
+.bg_red{
+	background-color: red;
+	color: yellow;
+}
+.bg_green{
+	background-color: green;
+	color: white;
+}
+.x_16{
+	width: 16%;
+}
+.x_15{
+	width: 15%;
+}
+.x_12{
+	width: 12%;
+}
+.x_11{
+	width: 11%;
+}
+.x_10{
+	width: 10%;
+}
+.x_8{
+	width: 8%;
+}
+.x_5{
+	width: 5%;
+}
+.x_3{
+	width: 3%;
+}
+.f_bold{
+	font-weight: bold;
+}
+.modal_cnum{
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: rgba(50, 50, 50, 1);
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid black;
+	border-radius: 4px;
+	background-color: rgba(200, 200, 200, 1);
+	box-shadow: 0 0 10px 2px rgba(50, 50, 50, 1);
+}
+.time_in,
+.time_out{
+	color: green;
+	cursor: pointer;
+}
+.time_in:hover,
+.time_out:hover{
+	color: white;
+	background-color: green;
+}
+.cancel_in,
+.cancel_out{
+	color: red;
+	cursor: pointer;
+}
+.cancel_in:hover,
+.cancel_out:hover{
+	color: white;
+	background-color: red;
+}
+.disabled{
+	cursor: disabled;
+}
+.individual{
+	padding-top : 5px;
+	line-height: 20px;
+	overflow-y: scroll;
+	max-height: 125px;
+}
+.th_individual{
+	vertical-align: top;
+}

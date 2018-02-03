@@ -1,0 +1,24 @@
+.welcome_table{
+	margin-top: 10px;
+	width: 100%;
+	max-width: 100%;
+	font-family: Comic Sans MS;
+	font-size: 2rem;
+	background-color: transparent;
+	color: #696969;
+}
+.welcome_table td,
+.welcome_table th{
+	padding: 0.5rem;
+	border: 0px solid gray;
+}
+a{
+	font-size: 20px;
+	line-height: 50px;
+	color: rgba(100, 100, 100, 1);
+}
+h1{
+	font-size: 5rem;
+	font-weight: 300;
+	line-height: 1.1;
+}

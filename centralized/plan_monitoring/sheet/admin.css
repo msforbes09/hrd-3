@@ -1,0 +1,129 @@
+.tools{
+	border: 0px solid gray;
+}
+.d_staff:hover,
+.d_stat:hover,
+.e_staff:hover,
+.e_stat:hover,
+.c_staff:hover,
+.c_stat:hover,
+.q_staff:hover,
+.q_stat:hover{
+	cursor: pointer;
+	color: blue;
+	background-color: yellow;
+}
+.proc_head{
+	width: 16%;
+}
+.stat_head{
+	width: 10%;
+}
+.no_w{
+	width: 3%;
+}
+.date_w{
+	width: 8%;
+}
+.cnum_w{
+	width: 12%;
+}
+.ss_w{
+	width: 5%;
+}
+.stat_w{
+	width: 3%;
+}
+.tools_w{
+	width: 7%;
+}
+.item_active{
+	font-weight: bold;
+	background-color: yellow;
+	text-decoration: underline;
+	color: blue;
+}
+.f_bold{
+	font-weight: bold;
+}
+.p_stat{
+	width: 100%;
+	height: 100%;
+	border: 0px solid #ccc;
+	background-color: transparent;
+}
+.btn_remove,
+.btn_comment,
+.btn_move{
+	width: 33%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: transparent;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.2rem;
+}
+.btn_remove:hover,
+.btn_comment:hover,
+.btn_move:hover{
+	border: 1px solid black;
+	background-color: gray;
+	color: white;
+}
+.admin_ctrl{
+	text-align: center;
+	position: absolute;
+	top: 150px;
+	left: 10%;
+	width: 40%;
+	padding: 7px;
+	border-radius: 20px;
+	border: 3px solid rgba(0, 0, 0, 1);
+	background-color: rgba(200, 200, 200, 1);
+}
+.my_btn{
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid rgba(0, 0, 0, 1);
+	border-radius: 4px;
+	background-color: transparent;
+	color:rgba(50, 50, 50, 1);
+	width: 24%;
+}
+.my_btn:hover,
+.my_btn:active,
+.my_btn:focus{
+	border: 1px solid rgba(0, 0, 0, 1);
+	background-color:rgba(50, 50, 50, 1);
+	color:white;
+}
+.my_input{
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	border: 1px solid blue;
+	border-radius: 4px;
+	background-color: transparent;
+	color:blue;
+	width: 24%;
+}
+.individual{
+	line-height: 20px;
+	overflow-y: scroll;
+	max-height: 125px;
+	padding-left: 5px;
+}

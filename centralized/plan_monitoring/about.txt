@@ -1,0 +1,51 @@
+forbes_syscom@hrd.com
+
+FOUNDATION DESIGN WAKUGUMI PLAN MONITORING
+v 2.0.0
+Released Date: 2017/12/09
+2017/12/11
+	editable date(received, released) in leader form
+	comment is visible in finished form
+2017/12/12
+	functions for notes
+2017/12/13
+	delete function in leader form
+	transfer function in leader form
+	success message
+2017/12/14
+	comment function in leader form
+	css design in user form, finished form
+	search function in finished form
+2017/12/15
+	freeze function in finished form
+2017/12/18
+	freeze function in user form
+	copy function in test form
+	alert prompt in test form
+2017/12/21
+	christmas theme
+	new year theme
+2018/01/11
+	separate forms in updating
+	kibiori slot in checking process
+	updated data retreiving
+v 2.1.0
+2018/01/12
+	start trial
+2018/01/13
+	order updating in kibiroi monitoring
+v 3.0.0
+2018/01/30
+	new features:
+		log-in form
+		master list
+		visitors page
+		combine monitoring (G1 + G2)
+		individual output
+		process balance
+		paging in finished plan monitoring
+		paging in kibiroi ordering monitoring
+		heart month theme
+		dropdown in user modal
+2018/02/02/0
+	theme: black;

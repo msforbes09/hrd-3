@@ -1,0 +1,14 @@
+.my_table{
+	width: 100%;
+	max-width: 100%;
+	font-family: Georgia;
+	font-size: 1.3rem;
+	background-color: white;
+	color: black;
+}
+.my_table td,
+.my_table th{
+	text-align: left;
+	padding: 0.4rem;
+	border: 1px solid gray;
+}
